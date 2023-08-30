@@ -1,4 +1,6 @@
 package Encapsulamento;
+import java.util.Scanner;
+
 public class Aluno{
     private String nome;
     private int idade, serie;
@@ -8,6 +10,10 @@ public class Aluno{
         this.nome = nome;
         this.idade = idade;
         this.serie = serie;
+    }
+
+    public Aluno(){
+        
     }
 
     //Get e Set
@@ -35,4 +41,9 @@ public class Aluno{
         this.serie = serie;
     }
 
+    public void exibirInformacao(){
+        System.out.println("Idade é: " + this.idade);
+        System.out.println("Serie é: " + this.serie);
+        System.out.println("Nome é: " + this.nome);
+    }
 }
