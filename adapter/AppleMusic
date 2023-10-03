@@ -1,0 +1,12 @@
+public class AppleMusic{
+  //Atributos
+  
+  //Construtores
+
+  //Métodos Get e Set
+
+  //Métodos
+  public void tocarMusicaAppleMusic(){
+    System.out.println("Tocando musica no AppleMusic");
+  }
+}
