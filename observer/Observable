@@ -1,4 +1,4 @@
-public abstract class Observabel{
+public abstract class Observable{
   public abstract void add(Observer ob);
   public abstract void remove(Observer ob);  
   public abstract void notifyObservers();  
