@@ -1,0 +1,11 @@
+public class Youtube{
+  //Atributos
+  
+  //Construtores
+
+  //Métodos Get e Set
+
+  //Métodos
+  public void tocarMusicaYoutube(){
+    System.out.println("Tocando musica no Youtube");
+  }
