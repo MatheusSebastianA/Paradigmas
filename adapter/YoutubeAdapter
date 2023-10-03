@@ -1,4 +1,4 @@
-public class YoutubeAdapter implements Streaming{
+public class YoutubeAdapter implements AppStreaming{
   //Atributos
   private Youtube ytb;
 
