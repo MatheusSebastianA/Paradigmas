@@ -1,0 +1,12 @@
+public class Spotify{
+  //Atributos
+  
+  //Construtores
+
+  //Métodos Get e Set
+
+  //Métodos
+  public void tocarMusicaSpotify(){
+    System.out.println("Tocando musica no Youtube");
+  }
+}
