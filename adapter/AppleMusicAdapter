@@ -1,1 +1,18 @@
+public class AppleMusicAdapter implements AppStreaming{
+  //Atributos
+  private AppleMusic am;
 
+  //Construtores
+  public AppleMusicAdapter(){
+    am = new AppleMusic();
+  }
+
+  //Métodos Get e Set
+
+  //Métodos
+  @override
+  public void tocarMusica(){
+    am.tocarMusicaAppleMusic();
+  }
+
+}
