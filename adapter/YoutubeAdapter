@@ -1,1 +1,18 @@
+public class YoutubeAdapter implements Streaming{
+  //Atributos
+  private Youtube ytb;
 
+  //Construtores
+  public YoutubeAdapter(){
+    ytb = new Youtube();
+  }
+
+  //Métodos Get e Set
+
+  //Métodos
+  @override
+  public void tocarMusica(){
+    ytb.tocarMusicaYoutube();
+  }
+
+}
