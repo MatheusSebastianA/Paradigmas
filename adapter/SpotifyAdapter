@@ -1,1 +1,18 @@
+public class SpotifyAdapter implements AppStreaming{
+  //Atributos
+  private Spotify spt;
 
+  //Construtores
+  public SpotifyAdapter(){
+    spt = new Spotify();
+  }
+
+  //Métodos Get e Set
+  ...
+
+  //Métodos
+  public void tocarMusica(){
+    spt.tocarMusicaSpotify();
+  }
+
+}
