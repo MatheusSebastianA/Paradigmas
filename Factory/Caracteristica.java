@@ -1,8 +1,8 @@
 public class Caracteristica{
   //Atributos
-  private String cor;
-  private int pesoGrama;
-  private double polegadasTela;
+  protected String cor;
+  protected int pesoGrama;
+  protected double polegadasTela;
 
   //Construtores
   
