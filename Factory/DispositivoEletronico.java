@@ -1,3 +1,3 @@
-public abstract class DispositivoEletronico{
+public abstract class DispositivoEletronico implements Dispositivo{
   Caracteristica carac;
 }
