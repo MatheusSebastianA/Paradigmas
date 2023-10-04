@@ -1,3 +1,3 @@
 public interface Dispositivo{
-  public abstract void criarDispositivo();
+  public abstract void ligarDispositivo();
 }
