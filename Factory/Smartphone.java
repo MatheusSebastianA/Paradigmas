@@ -6,7 +6,7 @@ public class extends DispositivoEletronico{
   //Métodos Get e Set
 
   //Métodos
-  public void criarDispositivoSmartphone(){
-
+  public void ligarDispositivoSmartphone(){
+    S.o.p("Ligando Smartphone");
   }
 }
