@@ -1,6 +1,6 @@
 public class Tablet extends DispositivoEletronico{
   //Atributos
-
+  
   //Construtores
 
   //Métodos Get e Set
