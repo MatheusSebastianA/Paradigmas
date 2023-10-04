@@ -1,12 +1,12 @@
 public class Principal{
   public static void main(String[] args){
     AppStreaming app1 = new YoutubeAdapter();
-    app1.tocarMusica();
+    app1.tocarMusica();//Tocando musica no youtube
 
     AppStreaming app2 = new AppleMusicAdapter();
-    app2.tocarMusica();
+    app2.tocarMusica();//Tocando musica no AppleMusic
 
     AppStreaming app3 = new SpotifyAdapter();
-    app3.tocarMusica();
+    app3.tocarMusica();//Tocando musica no Spotify
   }
 }
