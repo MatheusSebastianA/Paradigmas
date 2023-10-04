@@ -1,5 +1,5 @@
 public abstract class DispositivoEletronico implements Dispositivo{
-  Caracteristica carac;
+  protected Caracteristica carac;
 
   public abstract void ligarDispositivo();
 }
