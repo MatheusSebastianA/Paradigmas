@@ -1,0 +1,15 @@
+import java.util.*
+
+public class ArrayListPrincipal{
+  public static void main(String args[]){
+    //Fazer um array list de nomes de cidades
+    ArrayList<String> cidades = new ArrayList<String>();
+    cidades.add("Sao paulo");
+    cidades.add("Curitiba");
+    cidades.add("Pouso Alegre");
+
+    for(String nome: cidades){
+      S.o.p(nome.getNome());
+
+  }
+}
