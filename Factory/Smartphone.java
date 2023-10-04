@@ -1,4 +1,4 @@
-public class extends DispositivoEletronico{
+public class Smartphone extends DispositivoEletronico{
   //Atributos
 
   //Construtores
